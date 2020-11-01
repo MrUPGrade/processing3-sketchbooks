@@ -1,6 +1,14 @@
+// Program for visualizing probability.
+// For every frame, it tries to find a fully black pixel 
+// and draw a circle with center in that position. 
+// If the pixel is black, it can do a total of 100 random peeks per frame.
+// Total number of failed tries is counted and displayed at the end of the program.
+
+// Rendered output can be found here: 
+// https://youtu.be/75EpRtnwLvE
+
 boolean shouldDraw = true;
 int canceled = 0;
-
 
 void setup() {
   frameRate(30);
