@@ -1,2 +1,2 @@
 # processing3-sketchbooks
-Random sketches for processing3 build for learning.
+Random sketches for Processing3 build for learning.
